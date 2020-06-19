@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <link rel="stylesheet"  type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >  
+        <style>
+            .div1{
+                text-align: center;
+                background-color: rgba(0, 130, 210, 0.329);
+                color: white;
+                padding: 10px;
+                height: 25px;
+                font-size: large;
+                font-weight: 800;
+                margin: 0;
+                width: 100%;
+                position: fixed;
+                top: 0;      
+            }
+            .btn{
+                display: inline-block;
+                height: 6px;
+                padding: 8px 10px 15px;
+                background-color: rgba(0, 103, 220, 0.432);
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            input:focus{
+                background-color: white;
+                border: none;
+            }
+            .div2{
+                background-color: rgba(110, 120, 130, 0.2);
+                color: white;
+                height: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 10px;
+                padding-right: 10px;
+                font-size: smaller;
+                padding-left: 10px;
+                width: 100%;
+                position: fixed;
+                top: 0;
+                margin-top: 45px;
+                   
+            }
+            body{
+                background-image: url(image.jpg);
+                background-size: cover ;
+                background-attachment: fixed;
+                font-size: large;
+                overflow-y: hidden;
+                overflow-x: auto;
+                white-space: nowrap;
+                margin: 0;
+                padding: 0;
+
+            }     
+            .div3{
+                display: grid;
+                grid-template-columns: 300px 300px 300px 300px 300px 300px 300px;
+                grid-gap: 3px;
+                margin-top: 80px;
+            
+                              
+            }
+            .list1{
+                
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start;
+                border-radius: 5px;
+                
+            
+            }
+            .b{
+                background-color: white;
+                margin: 10px 0;
+                padding: 10px ;
+                cursor: pointer;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif ;
+                font-size: 0.9em;
+            }
+             .b:hover {
+                
+                background-color: rgba(110, 120, 130, 0.103);
+            
+                 
+             }
+             .hide{
+                     display: none;
+                 }
+             .b:hover  label.hide{
+                     display: inline-block;
+                     float: right;
+              }
+        
+              .hider{
+                     display: none;
+             } 
+             .b:hover  label.hider{
+                     display: inline-block;
+                     float: right;
+             }
+
+             .hiden{
+                     display: none;
+             }
+             .b:hover   label.hiden{
+                     display: inline-block;
+                     float: right;
+             }
+    
+             .list2{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px; 
+                 
+             }
+             .c{
+                background-color: white;
+                margin: 10px 0;
+                padding: 10px ;
+                cursor: pointer;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif ;
+                font-size: 0.9em;
+             }
+             .button{
+                    background-color: olive;
+                     border: none;
+                     padding: 8px;
+                     border-radius: 5px;
+                     font-size: smaller;
+                     color: white;
+                     margin: 10px 0;
+
+                     
+                 }
+             .list3{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px;  
+             }
+             .list4{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px;
+             }
+             .list5{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px;
+                 
+             }
+             .list6{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px;
+                 
+             }
+             .list7{
+                background-color: gainsboro ; 
+                padding: 10px;
+                margin: 10px;
+                align-self: flex-start; 
+                border-radius: 5px;
+                 
+             }
+             #info{
+                 height: 50px;
+                 margin: 5px;
+                 padding: 0;
+                 width: 100px;
+                
+             }
+             textarea{
+                 resize: none;
+                 width: 260px;
+                 border-radius: 5px;
+                 
+             }
+  
+        </style>
+        <body>
+            <div class="div1">
+                 Tralala
+                <div class="btn" style="float: left; margin-right: 4px;"> <i class="fa fa-home" aria-hidden="true"></i> </div>
+                <div class="btn " style="float: left; margin-right: 4px;" > <i class="fa fa-th-list" aria-hidden="true"></i>Boards </div>
+                <input class="btn" id="foc" style="float: left; width: 100px; margin-right: 4px; border: none; "></input>
+                 
+               <div class="btn" style="float: right; margin-left: 4px;" > <i class="fa fa-user" aria-hidden="true"></i> </div>
+               <div class="btn" style="float: right;" > <i class="fa fa-plus" aria-hidden="true"></i> </div>
+            </div>
+            <div class="div2">
+                <div class="phase" style="float: left; "> FrontendTraining</div>
+                <div class="phase" style="float: right; padding-right: 10px;"> <i class="fa fa-ellipsis-v" aria-hidden="true"></i> showmenu</div>                  
+            </div>
+            <div class="div3">
+                <div class="list1">
+                    <div class="a" style="float: left; font-weight: 700; font-family:  sans-serif;"> To Do</div>
+                    <div class="a"  style="float: right; "> ...</div></br>
+                    <div class="b" id="past"> Learn HTML
+                        <label class="hide"> <i class="fa fa-pencil" aria-hidden="true"></i></label>
+                    </div>
+                    <div class="b" id="present"> Learn CSS
+                        <label class="hider"> <i class="fa fa-pencil" aria-hidden="true"></i></label>
+
+                    </div>
+                    <div class="b" id="future"> Learn Javascript
+                        <label class="hiden"> <i class="fa fa-pencil" aria-hidden="true"></i></label>
+                    </div>
+                    <div class="a" style=" font-family: sans-serif; font-size: 0.9em;"> +Add another card</div>
+                </div>
+
+            
+
+                <div class="list2">
+                   <div class="a" style="float: left;font-weight: 700; font-family: sans-serif; "> Doing</div>
+                   <div class="a"  style="float: right; "> ...</div> </br>
+                   <div class="c"> Prepare resume</div>
+                   <textarea rows="4" cols="50" placeholder="Enter a title for this card......"></textarea></br>
+                   <button class="button"> Add Card</button> 
+                   <label style="font-size: 1.5em;"> <i class=" fa fa-times" aria-hidden="true"></i></label>
+
+                </div>
+                <div class="list3">
+                    <div class="a" style="float: left ;font-weight: 700; font-family: sans-serif;"> Testing/Verfying</div>
+                    <div class="a" style="float: right;"> ...</div> </br>
+                    <div class="c"> Twitter app frontend</div>
+                    <div class="a" style="font-family: sans-serif;font-size: 0.9em;"> +Add another card </div>
+                </div>
+
+                <div class="list4">
+                    <div class="a" style="float: left; font-weight: 700; font-family: sans-serif;" > Deploying</div>
+                    <div class="a" style="float: right;"> ...</div> </br>
+                    <div class="c"> Twitter app backend</div>
+                    <div class="a" style="font-family: sans-serif; font-size: 0.9em;"> +Add another card  </div>
+                </div>
+
+                <div class="list5">
+                    <div class="a" style="float: left; font-weight: 700; font-family: sans-serif;" > Done</div>
+                    <div class="a" style="float: right;"> ...</div> </br>
+                    <div class="a" style="font-family: sans-serif; font-size: 0.9em;"> +Add card </div>
+                </div>
+
+                <div class="list6">
+                    <div class="a" style="font-family: sans-serif; font-size: 0.9em;"> +Add another card </div>
+                </div>
+                <div class="list7">
+                    <textarea rows="4" cols="50" placeholder="Enter list title..."></textarea></br>
+                    <button class="button"> Add Card</button> 
+                    <label style="font-size: 1.5em;"> <i class=" fa fa-times" aria-hidden="true"></i></label>
+                </div>
+
+
+
+            </div>
+
+            
+        </body>
+    </head>
+</html>
